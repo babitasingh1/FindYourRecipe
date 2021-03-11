@@ -1,0 +1,70 @@
+:root {
+  --primary-color: teal;
+  --text-shadow: 2px 1px 1px rgb(81, 163, 163);
+}
+
+body {
+  text-align: center;
+  padding: 5%;
+}
+
+.recipe-item {
+  display: flex;
+
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.recipe-text {
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+
+.recipe-image {
+  display: inline-block;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgb(17, 43, 6);
+  border-radius: 2px;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 5px;
+
+  color: yellow;
+}
+
+h4 {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-shadow: var(--text-shadow);
+}
+
+h2 {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-shadow: var(--text-shadow);
+}
+
+.searchButton {
+  background-color: var(--primary-color);
+}
+
+.inputLabel {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--primary-color);
+}
